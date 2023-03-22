@@ -20,7 +20,6 @@ public class QuestionManager : MonoBehaviour
     private void Awake()
     {
         InitiateQuestionList();
-
     }
 
     void Start()
@@ -29,9 +28,7 @@ public class QuestionManager : MonoBehaviour
         wrongAnswerResponse.SetActive(false);
         victoryResponse.SetActive(false);
 
-
         GetRandomQuestion();
-
     }
 
 
@@ -89,8 +86,6 @@ public class QuestionManager : MonoBehaviour
 
             //answerTexts[i].text = _tempShowings[i];
         }
-
-        
     }
 
     //check the answer for correct aor not
@@ -105,7 +100,6 @@ public class QuestionManager : MonoBehaviour
             return;
         }
         StartCoroutine(RevealAnswer(buttonObject, false));
-
     }
 
     //change color of pushed button depend of its outcome wrong/correct
@@ -140,8 +134,6 @@ public class QuestionManager : MonoBehaviour
         ShowColor(buttonObject, isCorrect);
         yield return new WaitForSeconds(1);
         GoingOn(buttonObject, isCorrect);
-
-
     }
 
 }
