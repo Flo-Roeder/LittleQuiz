@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e9e5db2f77c244b989c3e8e3cc36a, type: 3}
   m_Name: Pi
   m_EditorClassIdentifier: 
-  _question: 
-  _falseAnswer: []
-  _correctAnswer: []
+  _question: Wie lautet die Kreiszahl Pi?
+  _falseAnswer:
+  - 3,1414
+  - 3,1413
+  - 3,1412
+  - 3,1416
+  - 3,1417
+  - 3,1418
+  _correctAnswer:
+  - 3,1415

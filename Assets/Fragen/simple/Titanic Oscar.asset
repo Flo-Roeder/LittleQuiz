@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e9e5db2f77c244b989c3e8e3cc36a, type: 3}
   m_Name: Titanic Oscar
   m_EditorClassIdentifier: 
-  _question: 
-  _falseAnswer: []
-  _correctAnswer: []
+  _question: Wie viele Oscars gewann der Film Titanic?
+  _falseAnswer:
+  - 10
+  - 9
+  - 8
+  - 12
+  - 13
+  - 14
+  _correctAnswer:
+  - 11

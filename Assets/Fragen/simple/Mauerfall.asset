@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e9e5db2f77c244b989c3e8e3cc36a, type: 3}
   m_Name: Mauerfall
   m_EditorClassIdentifier: 
-  _question: 
-  _falseAnswer: []
-  _correctAnswer: []
+  _question: In welchem Jahr war der Fall der berliner Mauer?
+  _falseAnswer:
+  - 1988
+  - 1987
+  - 1986
+  - 1985
+  - 1990
+  - 1991
+  - 1992
+  - 1993
+  _correctAnswer:
+  - 1989

@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e9e5db2f77c244b989c3e8e3cc36a, type: 3}
   m_Name: Chinesche Mauer
   m_EditorClassIdentifier: 
-  _question: 
-  _falseAnswer: []
-  _correctAnswer: []
+  _question: Wie lange ist die Chinesiche Mauer?
+  _falseAnswer:
+  - 19.000 km
+  - 17.000 km
+  - 15.000 km
+  - 23.000 km
+  - 25.000 km
+  - 27.000 km
+  _correctAnswer:
+  - 21.000 km
