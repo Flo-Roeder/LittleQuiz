@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e9e5db2f77c244b989c3e8e3cc36a, type: 3}
   m_Name: Sonnensystem
   m_EditorClassIdentifier: 
-  _question: 
-  _falseAnswer: []
-  _correctAnswer: []
+  _question: Wie viele Planeten hat unser Sonnensystem?
+  _falseAnswer:
+  - 7
+  - 6
+  - 5
+  - 9
+  - 10
+  - 11
+  _correctAnswer:
+  - 8
